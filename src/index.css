@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+}
+
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #28283c;
+  font-family: "Noto Sans Thai", sans-serif;
+  letter-spacing: 0.05em;
+}
+
+.scrollbar::-webkit-scrollbar {
+  width: 10px;
+}
+
+.scrollbar-category::-webkit-scrollbar {
+  height: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.item-shop-btn {
+  box-shadow: 0px 0px 50px 0px rgba(255, 255, 255, 0.5);
+}
+@keyframes leaves {
+  0% {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+  }
+  100% {
+    transform: scale(1.15);
+    -webkit-transform: scale(1.15);
+  }
+}
+.item-shop-btn:hover {
+  animation: leaves 0.75s ease-in-out infinite alternate;
+  box-shadow: 0px 0px 50px 0px rgba(255, 255, 255, 0.75);
+}
+
+.homepage-btn {
+  background: linear-gradient(
+    180deg,
+    #1eaef0 0%,
+    rgba(84, 100, 222, 0.91) 100%
+  );
+}
+
+.homepage-btn:hover {
+  box-shadow: 0px 0px 20px 0px rgba(30, 174, 240, 0.5);
+}
+
+.navbar-shadow {
+  box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.05);
+}
+
+/* For General */
+.list-bullet {
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  background-color: #005fee;
+  border-radius: 100%;
+  margin-right: 0.5em;
+  margin-bottom: 2px;
+}
+
+/* For HowToGift/Else */
+.list-bullet-gift {
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  background-color: #ba6eea;
+  border-radius: 100%;
+  margin-right: 0.5em;
+  margin-bottom: 2px;
+}
+.list-bullet-else {
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  background-color: #abd499;
+  border-radius: 100%;
+  margin-right: 0.5em;
+  margin-bottom: 2px;
+}
+
+.price-and-how-to-box {
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+}
+
+.link-how-to-btn-purple:hover {
+  box-shadow: 4px 4px 10px 0px rgba(193, 164, 232, 0.5);
+}
+
+.link-how-to-btn-green:hover {
+  box-shadow: 4px 4px 10px 0px rgba(171, 212, 153, 0.5);
+}
+
+.homepage-btn-overlay:hover {
+  z-index: 1;
+  opacity: 1;
+}
+
+.drop-down {
+  filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.15));
+}
+
+.points-benefits-box {
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+}
+
+@keyframes expandIn {
+  from {
+    max-height: 0;
+    opacity: 0; 
+  }
+  to {
+    max-height: 500px;
+    opacity: 1; 
+  }
+}
+
+@keyframes collapseOut {
+  from {
+    max-height: 500px;
+    opacity: 1; 
+  }
+  to {
+    max-height: 0;
+    opacity: 0; 
+  }
+}
+
+
+.animate-expandIn {
+  animation: expandIn 0.5s ease;
+}
+
+.animate-collapseOut {
+  animation: collapseOut 0.5s ease ;
+}
+
+.glow-text {
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
+
+.item-title-shadow {
+  text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+.card-bg {
+  background: linear-gradient(0deg, #000 0%, transparent 80%);
+}
