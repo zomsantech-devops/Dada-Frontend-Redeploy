@@ -42,7 +42,7 @@ const HomePage = React.lazy(() => import("./pages/HomePage"));
 function App() {
   // State to hold the title
   const [title, setTitle] = useState("");
-
+ 
   // Effect to fetch and set the title
   useEffect(() => {
     const fetchTitle = async () => {
