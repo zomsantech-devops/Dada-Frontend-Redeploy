@@ -23,7 +23,7 @@ function HowToElse() {
               alt="Arrow icon"
               className="w-[12px] h-[12px] rotate-90 mt-[2px]"
             />
-            ราคา & ขั้นตอนการซื้อ
+            ราคา & ขั้นตอนการซื้อ.
           </Link>
           <p className="text-center text-5xl font-bold my-[40px] leading-[58px] screen_540:text-3xl">
             ขั้นตอนการสั่งซื้อ
