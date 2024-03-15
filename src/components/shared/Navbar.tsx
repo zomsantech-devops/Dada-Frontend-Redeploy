@@ -309,7 +309,7 @@ function Navbar() {
                   }`}
                 >
                   <p className="grow overflow-hidden text-ellipsis whitespace-nowrap">
-                    เติม fortnite
+                    เติม Fortnite
                   </p>
                 </Link>
               </div>
@@ -401,7 +401,7 @@ function Navbar() {
                   }`}
                 >
                   <p className="grow overflow-hidden text-ellipsis whitespace-nowrap">
-                    Dada points
+                    Dada Points
                   </p>
                 </Link>
               </div>

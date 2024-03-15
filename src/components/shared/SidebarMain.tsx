@@ -103,7 +103,7 @@ const SidebarMain = ({
                   }`}
                 >
                   <p className="grow overflow-hidden text-ellipsis whitespace-nowrap">
-                    เติม fortnite
+                    เติม Fortnite
                   </p>
                 </Link>
               </div>
@@ -195,7 +195,7 @@ const SidebarMain = ({
                   }`}
                 >
                   <p className="grow overflow-hidden text-ellipsis whitespace-nowrap">
-                    Dada points
+                    Dada Points
                   </p>
                 </Link>
               </div>
