@@ -19,7 +19,7 @@ const TABLE_ROWS = [
   {
     ระดับ: "Laurent Perrier",
     แต้มสะสม: "3000+ Dada Points",
-    สิทธิประโยชน์: "เติม Fortnite Rate พิเศษมว้ากกก (Rate ใน Server Discord)",
+    สิทธิประโยชน์: "เติม Fortnite Rate พิเศษที่สุด (Rate ใน Server Discord)",
   },
 ];
 
