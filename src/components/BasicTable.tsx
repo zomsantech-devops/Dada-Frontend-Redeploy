@@ -96,7 +96,7 @@ export function BasicTable({
                     placeholder=""
                       variant="small"
                       color="blue-gray"
-                      className={` text-[16px] font-normal leading-none w-[115px] ${statusClasses}`}
+                      className={` text-[14px] font-normal leading-none w-[115px] ${statusClasses}`}
                     >
                       {status || ""}
                       {/* Providing a default value if status is undefined */}
@@ -107,7 +107,7 @@ export function BasicTable({
                     placeholder=""
                       variant="small"
                       color="blue-gray"
-                      className="text-[16px] font-normal leading-none"
+                      className="text-[14px] font-normal leading-none"
                     >
                       {time || ""}
                       {/* Providing a default value if time is undefined */}
@@ -118,7 +118,7 @@ export function BasicTable({
                     placeholder=""
                       variant="small"
                       color="blue-gray"
-                      className="text-[16px] font-normal leading-none"
+                      className="text-[14px] font-normal leading-none"
                     >
                       {buyerName || ""}
                       {/* Providing a default value if buyerName is undefined */}
