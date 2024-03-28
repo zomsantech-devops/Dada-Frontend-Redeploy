@@ -151,7 +151,7 @@ function ItemShop() {
                     <h1 className="pt-3.5 pb-2 text-[26px] text-black/80 font-semibold screen_930:text-xl screen_445:text-lg mb-2">
                       {sec}
                     </h1>
-                    <ul className="grid grid-cols-6 xl:grid-cols-5 lg:grid-cols-4 screen_810:grid-cols-3 sm:grid-cols-2 gap-4 screen_500:place-items-center screen_445:gap-2">
+                    <ul className="grid grid-cols-6 xl:grid-cols-5 lg:grid-cols-4 screen_810:grid-cols-3 sm:grid-cols-2 gap-4 screen_500:place-items-center screen_445:gap-1">
                       {data
                         .filter((item) => item.section_name === sec)
                         .map((item) => (
@@ -165,7 +165,7 @@ function ItemShop() {
                     </ul>
                   </section>
                 ))}
-              <ul className="grid grid-cols-6 xl:grid-cols-5 lg:grid-cols-4 screen_810:grid-cols-3 sm:grid-cols-2 gap-4 screen_500:place-items-center screen_445:gap-2">
+              <ul className="grid grid-cols-6 xl:grid-cols-5 lg:grid-cols-4 screen_810:grid-cols-3 sm:grid-cols-2 gap-4 screen_500:place-items-center screen_445:gap-1">
                 {selectedCategory === "New"
                   ? data
                       .filter((item) =>
