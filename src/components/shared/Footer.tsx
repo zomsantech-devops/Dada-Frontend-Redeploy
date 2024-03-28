@@ -6,7 +6,7 @@ function Footer() {
   return (
     <div className="flex gap-[30px] flex-col text-center mt-[60px] md:mt-[50px] pb-[50px] px-[30px]">
       <p>ช่องทางการติดต่อ</p>
-      <div className="flex gap-[30px] justify-center">
+      <div className="flex gap-[15px] justify-center">
         <Link target="_blank" to="https://www.facebook.com/dadafnth/">
           <img
             src={FBIcon}
