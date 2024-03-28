@@ -37,7 +37,7 @@ function HomePage() {
   return (
     <div className="w-full flex flex-col justify-center items-center mb-10 px-7">
       {status === "OPEN" ? (
-        <div className="flex flex-col items-center mt-20 my-10 gap-1">
+        <div className="flex flex-col items-center mt-10 my-10 gap-1">
           <div className="w-24 h-24">
             <img src={`${process.env.REACT_APP_API}/image/check`} alt="check" />
           </div>
@@ -49,7 +49,7 @@ function HomePage() {
           <p className="text-center">{content}</p>
         </div>
       ) : status === "MAINTENANCE" ? (
-        <div className="flex flex-col items-center mt-20 my-10 gap-1">
+        <div className="flex flex-col items-center mt-10 my-10 gap-1">
           <div className="w-24 h-24">
             <img src={`${process.env.REACT_APP_API}/image/busy`} alt="busy" />
           </div>
@@ -59,7 +59,7 @@ function HomePage() {
           <p className="text-center">{content}</p>
         </div>
       ) : (
-        <div className="flex flex-col items-center mt-20 my-10 gap-1">
+        <div className="flex flex-col items-center mt-10 my-10 gap-1">
           <div className="w-24 h-24">
             <img src={`${process.env.REACT_APP_API}/image/close`} alt="close" />
           </div>
