@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 function Footer() {
   return (
-    <div className="flex gap-[14px] flex-col text-center mt-[38px] md:mt-[38px] pb-[20px] px-[20px]">
+    <div className="flex gap-[14px] flex-col text-center mt-[42px] md:mt-[38px] pb-[20px] px-[20px]">
       <p>ช่องทางการติดต่อ</p>
       <div className="flex gap-[20px] justify-center">
         <Link target="_blank" to="https://www.facebook.com/dadafnth/">
