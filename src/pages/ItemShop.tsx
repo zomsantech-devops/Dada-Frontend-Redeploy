@@ -144,11 +144,11 @@ function ItemShop() {
               setSelectedCategory={setSelectedCategory}
             />
             {/* Fetch all items */}
-            <div className="flex flex-col self-center gap-[20px] screen_960:gap-[25px] screen_500:w-full">
+            <div className="flex flex-col self-center gap-[20px] screen_960:gap-[15px] screen_500:w-full">
               {selectedCategory === "All" &&
                 section.map((sec) => (
                   <section key={sec}>
-                    <h1 className="pt-3.5 pb-2 text-[26px] text-black/80 font-semibold screen_930:text-xl screen_445:text-lg mb-2">
+                    <h1 className="pt-3.5 pb-2 text-[26px] text-black/80 font-bold screen_930:text-xl screen_445:text-lg mb-2">
                       {sec}
                     </h1>
                     <ul className="grid grid-cols-6 xl:grid-cols-5 lg:grid-cols-4 screen_810:grid-cols-3 sm:grid-cols-2 gap-4 screen_500:place-items-center screen_445:gap-2">
